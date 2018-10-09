@@ -1,0 +1,22 @@
+# Name = 181005F_Homework_Question_5
+
+# 5.) Given a 2D array of ints. Write an algorithm that will average all non zero ints.
+
+nums = [[1,2,3,4],
+        [5,6,7,8],
+        [9,10,11,12]]
+nums2 = []
+
+loop rows from 0 - 3:
+    loop cols from 0-4:
+        if nums[rows][cols] != 0:
+            nums2.append(cols)
+        end if
+    end loop
+end loop
+
+counter = 0
+sum = 0
+for x in nums2:
+    sum = x + sum
+    counter = counter + 1

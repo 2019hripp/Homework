@@ -1,0 +1,17 @@
+# Name = 181005F_Homework_Question_4
+
+# 4.) Given a queue, write an algorithm that will return all names that do not start with a vowel
+
+arr = []
+find = input()
+pos = -1
+
+while not queue.isEmpty()
+    pos = pos + 1
+    x = queue.dequeue()
+    if == find && x != 'a, e, i, o, u'
+        output(pos)
+    else
+        output('not found')
+    end if
+end loop

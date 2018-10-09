@@ -1,0 +1,21 @@
+# Name = 181005F_Homework_Question_3
+
+# 3.) Given a stack of names, write an algorithm that will return all names that start with a vowel
+
+find = input()
+pos = -1
+arr = []
+allVowsArr
+
+loop while not stack.isEmpty()
+    if pos == 'a, e, i, o, u'
+        pos = pos + 1
+        x = stack.pop()
+        if x == find
+        allVowsArr.push(x)
+            print(allVowsArr)
+        else
+            print('not found')
+        end if
+    end if
+end loop

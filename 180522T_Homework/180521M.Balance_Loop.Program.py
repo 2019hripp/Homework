@@ -14,14 +14,10 @@ def balance(left, right):
             right_weight = (right_weight + 3)
 
     if (left_weight > right_weight):
-        print('left')
+        return('left')
     elif (right_weight > left_weight):
-        print('right')
+        return('right')
     else:
-        print('balance')
-
-    print(left_weight)
-    print(right_weight)
-
+        return('balance')
 
 balance("!!","??")

@@ -1,0 +1,14 @@
+# Name = 181005F_Homework_Question_1
+
+# 1.) Given an array of names, write an algorithm to search for a name. Return the index value if found.
+
+name = 'HarryR'
+Arr = ['Braden', 'HarryG', 'HarryR', 'Irene', 'Michelle', 'Zara']
+
+ans = 'false'
+for pos in range(6)
+    if arr[pos] == name
+        ans = 'True'
+    end if
+end loop
+return(ans)

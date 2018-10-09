@@ -1,0 +1,23 @@
+# Name = 181005F_Homework_Question_2
+
+# 2.) Given a collection of ints, write an algorithm to find the average of all even nums
+
+sumArr = []
+col = ['1', '2', '3', '4', '5', '6']
+
+While col.hasnext()
+    num = 0
+    if num.getnext() % 2 == 0
+        sumArr.push(num)
+    end if
+end while
+
+while sumArr.hasnext()
+    num = sumArr.getnext()
+    # add all nums to sum
+    sum = num.sum()
+    # add 1 to div
+    # sum/div
+    avg = sum / sumArr.len()
+    return(avg)
+end while
