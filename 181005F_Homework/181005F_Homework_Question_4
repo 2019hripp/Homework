@@ -2,16 +2,14 @@
 
 # 4.) Given a queue, write an algorithm that will return all names that do not start with a vowel
 
-arr = []
-find = input()
-pos = -1
+queue = []
+nov_queue = []
 
 while not queue.isEmpty()
-    pos = pos + 1
     x = queue.dequeue()
-    if == find && x != 'a, e, i, o, u'
-        output(pos)
-    else
-        output('not found')
+    if x[0] != 'a, e, i, o, u'
+        nov_queue.enqueue(x)
     end if
-end loop
+end while
+
+output(nov_queue)

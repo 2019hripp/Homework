@@ -1,0 +1,22 @@
+# Name: 180529T.While_Loop_Even.py
+
+def salesCalculate(matrix, start_row,start_col,end_row,end_col)
+  first_week_total = 0
+  inbetween_total = 0
+  last_week_total = 0
+  fee = [2,10]
+
+    loop while col in range(start_col, 7) get.Hasnext
+      if col < 5
+        first_week_total = first_week_total = matrix[row][col] * fee[0]
+      else
+        inbetween_total = inbetween_total + matrix[row][col] * fee[1]
+    return('total for first week:',first_week_total)
+
+    loop while row in range(start_row + 1, end row) get.Hasnext
+      loop while col in range(7) get.Hasnext
+      if col < 5
+        inbetween_total = inbetween_total + matrix[row][col] * fee[0]
+      else
+        inbetween_total = inbetween_total + matrix[row][col] * fee[1]
+    return('total for inbetween', inbetween_total)
